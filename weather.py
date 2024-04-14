@@ -12,3 +12,7 @@ unitsSymbols = {
 'kelvin': 'K'
 
 }
+
+try:
+    response = requests.get(('http://api.openweathermap.org/data/2.5/weather?q=' + city + 
+                            '&appid=476b94193414be09d482c9ee0af011e8&units='+units).json())
