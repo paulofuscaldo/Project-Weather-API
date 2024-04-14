@@ -21,4 +21,6 @@ currentTemperature = response['main']['temp']
 minTemperature = response['main']['temp_min']
 humidity = response['main']['humidity']
 maxTemperature = response['main']['temp_max']
-feelsLikeTemperature = response['main']['feels_like']  
+feelsLikeTemperature = response['main']['feels_like']
+description = response['weather'][0]['description']
+  
