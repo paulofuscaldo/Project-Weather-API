@@ -26,5 +26,6 @@ description = response['weather'][0]['description']
 print('In the city of ' + city.capitalize() + ':')  
 print('the current temperature is ' + str(currentTemperature) + unitsSymbols[units] + ' but feels like ' + str(feelsLikeTemperature) + unitsSymbols[units])
 print('the weather is ' + description)
+print('the current humidity level is ' + str(humidity) + '%')
 
       
