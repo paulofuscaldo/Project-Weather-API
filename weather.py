@@ -20,4 +20,4 @@ try:
 currentTemperature = response['main']['temp']
 minTemperature = response['main']['temp_min']
 humidity = response['main']['humidity']
-  
+maxTemperature = response['main']['temp_max']  
