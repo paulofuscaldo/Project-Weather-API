@@ -23,4 +23,4 @@ humidity = response['main']['humidity']
 maxTemperature = response['main']['temp_max']
 feelsLikeTemperature = response['main']['feels_like']
 description = response['weather'][0]['description']
-  
+print('In the city of ' + city.capitalize() + ':')  
