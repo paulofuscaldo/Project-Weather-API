@@ -1,3 +1,4 @@
- import requests
- 
+import requests
+
+city = input('Enter a city: ')
  
